@@ -7,7 +7,7 @@ export default function Introduction() {
     return(
         <div className="container">
             <div className="backButton" onClick={() => navigate('/')}>
-                <img src="/src/assets/hand.svg" alt="Back" className="backIcon" />
+                <img src="/hand.svg" alt="Back" className="backIcon" />
                 <span className="windsor-bold text-white">Back</span>
             </div>
             <div className="paddedContainer">
