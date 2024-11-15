@@ -6,10 +6,10 @@ export default function Introduction() {
 
     return(
         <div className="container">
-            <div className="backButton" onClick={() => navigate('/')}>
+            <a className="backButton" onClick={() => navigate('/')}>
                 <img src="/hand.svg" alt="Back" className="backIcon" />
                 <span className="windsor-bold text-white">Back</span>
-            </div>
+            </a>
             <div className="paddedContainer">
                 <h1 className="windsor-bold text-white">Introduction</h1>
                 <div className="container text-white">
