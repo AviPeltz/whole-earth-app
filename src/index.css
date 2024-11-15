@@ -18,6 +18,11 @@
   font-family: 'UniversB';
   src: url(https://assets.codepen.io/888982/UniversCnBold.ttf);
 }
+@font-face {
+  font-family: 'Univers';
+  src: url(https://assets.codepen.io/888982/UniversRegular.ttf);
+}
+
 /* Reset and Base Styles */
 html {
   box-sizing: border-box;
@@ -30,6 +35,10 @@ html {
 .univers-bold{
   font-family: UniversB;
 }
+.univers{
+  font-family: Univers;
+}
+
 .text-white{
   color: var(--paper-white);
 }

@@ -12,12 +12,12 @@ export default function Introduction() {
             </a>
             <div className="paddedContainer">
                 <h1 className="windsor-bold text-white">Introduction</h1>
-                <div className="container text-white">
+                <div className="container text-white univers">
                     <p>
-                    In an age of unwavering technological acceleration, we find ourselves at a curious crossroads. We are simultaneously more powerful and more uncertain than ever before. We are beings of paradox: biological machines capable of poetry, pack animals that dream of the stars.<i> This catalog exists as your manual for navigating this extraordinary moment in human history.</i>
+                    In an age of unwavering technological acceleration, we find ourselves at a curious crossroads. We are simultaneously more powerful and more uncertain than ever before. We are beings of paradox: biological machines capable of poetry, pack animals that dream of the stars.<b><i> This catalog exists as your manual for navigating this extraordinary moment in human history.</i></b>
                     </p>
                     <p>
-                    Like its spiritual predecessor, the Whole Earth Catalog, this work springs from a profound conviction: that the tools of understanding, when placed in human hands, become instruments of transformation. But where Stewart Brand's revolutionary catalog emerged in the dawn of the information age, we now stand in its high noon, surrounded by technologies that would seem like magic to our ancestors of mere decades ago.
+                    Like its spiritual predecessor, the <span className="windsor-bold">Whole Earth Catalog</span>, this work springs from a profound conviction: that the tools of understanding, when placed in human hands, become instruments of transformation. But where Stewart Brand's revolutionary catalog emerged in the dawn of the information age, we now stand in its high noon, surrounded by technologies that would seem like magic to our ancestors of mere decades ago.
                     We are, each of us, more than the sum of our parts. Though science tells us we are indeed "wet machines" - intricate biological computers shaped by evolution - we are also the universe's most remarkable accident: consciousness turned back upon itself, matter that contemplates matter, creatures who create meaning. We are beings endowed with three fundamental powers that set us apart: our capacity for communication, which weaves the fabric of human culture; our gift for computation, which allows us to model and understand our world; and our ability for fabrication, which lets us reshape reality according to our vision.
                     </p>
                     <p>
