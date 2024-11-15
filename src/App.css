@@ -1,0 +1,146 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    cursor: none;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #00001a;
+    font-family: 'Inter', Arial;
+}
+
+/* Layout */
+.layout {
+  height: 100vh;
+}
+
+/* Typography */
+.title {
+  color: var(--paper-white);
+  font-family: WindsorB;
+  font-size: clamp(36px, 8vw, 64px);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subheading {
+  color: var(--paper-white);
+  font-size: clamp(14px, 4vw, 18px);
+  font-family: UniversB;
+  padding-bottom: 48px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* Button Styles */
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 64px;
+}
+
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  min-width: 120px;
+  padding: 10px 10px 12px;
+  color: var(--paper-white);
+  font: 600 16px/24px WindsorB;
+  border-radius: 10px;
+  background: #10111A;
+  cursor: none;
+  box-shadow: 
+    0px 8px 20px -8px rgba(26, 33, 43, 0.50),
+    0px 4px 12px 0px rgba(26, 33, 43, 0.05),
+    0px 1px 3px 0px rgba(26, 33, 43, 0.25),
+    0px 1.5px 0.5px 0px #454D57 inset,
+    0px -3px 1px 0px rgba(0, 0, 0, 0.50) inset;
+  transform: translateZ(0);
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scaleX(1.03) scaleY(1.06) translateZ(0);
+}
+
+button:active {
+  transform: scaleX(0.98) scaleY(0.96) translateZ(0);
+}
+a {
+  cursor: none;
+}
+/* Earth Animation */
+.earth {
+  position: relative;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://vignette.wikia.nocookie.net/marvelcrossroads/images/7/71/Earth-map.jpg/revision/latest?cb=20180513012905");
+  background-size: cover;
+  border-radius: 100%;
+  box-shadow: 
+    inset 8px 0 20px 1.5px rgb(0, 0, 0),
+    inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+  animation: spin 25s linear infinite;
+}
+
+@keyframes spin {
+  0% { background-position: 0%; }
+  50% { background-position: 100%; }
+  100% { background-position: 200%; }
+}
+
+/* Custom Cursor */
+.cursor {
+  width: 21px;
+  height: 21px;
+  position: fixed;
+  left: -6px;
+  top: -5px;
+  pointer-events: none;
+  user-select: none;
+  display: block;
+  transform: translate(var(--x), var(--y));
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+  background-image: url('https://assets.codepen.io/165585/default.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9999;
+
+}
+
+body:has(button:hover) .cursor {
+  background-image: url('https://assets.codepen.io/165585/pointer.png');
+}
+body:has(a:hover) .cursor {
+  background-image: url('https://assets.codepen.io/165585/pointer.png');
+}
+
+
+
+/* Social Media */
+.twitter {
+  position: fixed;
+  display: block;
+  right: 12px;
+  bottom: 12px;
+}
+
+.twitter svg {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+
+/* Page Transitions */

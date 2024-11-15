@@ -1,0 +1,45 @@
+/* Custom Properties */
+:root {
+  --planet-size: clamp(70px, 20vw, 100px);
+  --planet-spin-period: 25s;
+  --planet-night-cycle-period: 40s;
+  --planet-orbit-angle: -25deg;
+  --planet-angle: 0deg;
+  --paper-white: #f7f7f7;
+}
+
+/* Font Faces */
+@font-face {
+  font-family: 'WindsorB';
+  src: url(https://assets.codepen.io/888982/WindsorProBold.TTF);
+}
+
+@font-face {
+  font-family: 'UniversB';
+  src: url(https://assets.codepen.io/888982/UniversCnBold.ttf);
+}
+/* Reset and Base Styles */
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.windsor-bold{
+  font-family: WindsorB;
+}
+
+.univers-bold{
+  font-family: UniversB;
+}
+.text-white{
+  color: var(--paper-white);
+}
+.center {
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.paddedContainer{
+  padding: 20px;
+}
