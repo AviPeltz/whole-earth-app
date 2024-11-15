@@ -24,7 +24,7 @@ export default function Introduction() {
                 We stand at the threshold of revolutions in artificial intelligence, biotechnology, energy systems, and social organization. The future remains unwritten. This catalog is your invitation to become one of its authors.
                 </p>
                 <p className="windsor-bold">
-                Let us begin.
+                Let us begin. 
                 </p>
             </div>
         </div>
