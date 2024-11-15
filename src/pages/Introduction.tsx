@@ -30,7 +30,7 @@ export default function Introduction() {
                     But beyond mere utility, this catalog carries a deeper message: you matter. Your choices matter. Your understanding and your actions ripple out through the complex systems we all inhabit. In an age often characterized by apathy in the face of overwhelming challenges, we aim to restore a sense of possibility and power - not through false promises or oversimplification, but through genuine work and practical understanding.
                     </p>
                     <p>
-                    We stand at the threshold of revolutions in artificial intelligence, biotechnology, energy systems, and social organization. The future remains unwritten. This catalog is your invitation to become one of its authors.
+                    We stand at the threshold of revolutions in ai, robotics, biology, and social organization. The future remains unwritten. This catalog is your invitation to become one of its authors.
                     </p>
                     <p className="windsor-bold">
                     Let us begin. 
