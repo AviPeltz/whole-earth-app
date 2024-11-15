@@ -143,4 +143,23 @@ body:has(a:hover) .cursor {
   fill: #fff;
 }
 
-/* Page Transitions */
+/* back button */
+.backButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  cursor: none;
+  transition: transform 0.2s ease;
+}
+
+.backButton:hover {
+  transform: scale(1.02);
+}
+
+.backIcon {
+  width: 42px;
+  height: 42px;
+  filter: invert(100%);
+  transform: rotate(180deg);
+}
